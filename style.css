@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Outfit;
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: young-serif;
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+
+#main-div{
+    background-color: hsl(0, 0%, 100%);
+    width: 50%;
+    padding: 40px;
+    border-radius: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+#prep{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 0.5rem;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+h4{
+    color: hsl(332, 51%, 32%);
+}
+
+h3{
+    color: hsl(14, 45%, 36%);
+    font-size: 25px;
+}
+
+p{
+    font-size: 16px;
+}
+
+h1,h3{
+    font-family: young-serif, sans-serif;
+}
+
+h4,p,li,.nutrition,ol{
+    font-family: Outfit, sans-serif;
+}
+
+.item{
+    display: flex;
+}
+
+.label{
+    width: 50%;
+}
+
+.value{
+    color: hsl(14, 45%, 36%);
+    align-items: start;
+    font-weight: 600;
+}
+
+.attribution{
+    padding: 10px;
+}
+
+@media only screen and (max-width:500px) {
+    html{
+        background-color: white;
+    }
+
+    #main-div{
+        width: 100%;
+        padding: 0%;
+        border: 0;
+        border-radius: 0;
+    }
+
+    img{
+        border-radius: 0;
+    }
+
+    .attribution{
+        background-color: white;
+        padding: 10px;
+    }
+    
+}
